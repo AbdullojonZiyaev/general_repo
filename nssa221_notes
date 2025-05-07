@@ -1,0 +1,85 @@
+---This is nssa221_notes o young or old fellow please try to contribute and add something that you think can help next generations---
+
+---General Introduction---
+Computer-human system consisting of computes, network, users, organization policies
+SysAdmins monitor the system and make sure it works at any time within the defiend budget.
+
+---Network Type---
+Peer to Peer Network (Workgroup):
+    +Decentralized System: no central server or management. All nodes (users) share resources equally.
+    +Each node can make both request and response: every node acts as both client and server.
+    +Affordable: low cost to set up, as there is no need for dedicated servers.
+    +Preferred in small networks: Works well in smaller environments (like home or small office networks).
+    -Less stable: Reliability may vary as the network depends on individual nodes, and if one node goes offline, it can disrupt the network.
+    -Limited security: Since there’s no central control, security is harder to manage across all nodes.
+
+Client/Server Network:
+    +Centralized System: A dedicated server manages resources and controls the network.
+    +Clients make requests, servers respond: Clients rely on the server to provide services, and the server processes the requests.
+    +Better scalability: Easily scalable to large networks because the server is powerful and dedicated to handling requests.
+    +More stable and reliable: Servers are more reliable with centralized control and backup systems.
+    -Higher cost: Requires investment in server hardware, software, and maintenance.
+    -More complex setup: Requires more configuration, especially for managing users, permissions, and security.
+
+---System Administrators---
+System Administrator should manage the whole system which includes fault (problem detection), configuration (checking software and hardware), security (policies, access control, authentification and etc), performance (check performance as expected), accounting (access control and costs)
+
+Type of admins:
+1️⃣Network Administrator
+Focus:
+Maintaining and managing the organization’s network infrastructure (LAN, WAN, VPN, routers, switches).
+Responsibilities:
+✅ Monitor network performance and ensure connectivity
+✅ Configure and manage network devices
+✅ Handle network security (firewalls, intrusion detection)
+✅ Troubleshoot and resolve network issues
+Skills Needed:
+Strong knowledge of networking protocols (TCP/IP, DNS, DHCP)
+Hands-on experience with routers, switches, firewalls
+Network troubleshooting tools (Wireshark, traceroute)
+Basic security awareness (VPNs, encryption)
+
+2️⃣System Administrator (SysAdmin)
+Focus:
+Managing and maintaining servers, operating systems, and system software.
+Responsibilities:
+✅ Install, configure, and maintain servers (Windows, Linux, etc.)
+✅ Manage user accounts, permissions, and access
+✅ Ensure system performance, uptime, and backups
+✅ Apply patches, updates, and security fixes
+Skills Needed:
+Strong understanding of OS (Linux, Windows Server)
+Scripting (Bash, PowerShell) for automation
+Knowledge of virtualization (VMware, Hyper-V)
+Backup and disaster recovery planning
+
+3️⃣Database Administrator (DBA)
+Focus:
+Managing databases to ensure data integrity, performance, and security.
+Responsibilities:
+✅ Install and configure database systems (e.g., MySQL, Oracle, SQL Server)
+✅ Optimize database performance and tune queries
+✅ Manage backups and data recovery
+✅ Implement data security measures and user access control
+Skills Needed:
+Strong knowledge of SQL and database design
+Performance tuning and optimization
+Backup/recovery techniques
+Understanding of data security and compliance
+
+4️⃣Security Administrator
+Focus:
+Protecting IT systems, networks, and data from cyber threats.
+Responsibilities:
+✅ Implement and manage security tools (firewalls, antivirus, IDS/IPS)
+✅ Monitor systems for security breaches or suspicious activity
+✅ Conduct security audits and vulnerability assessments
+✅ Enforce security policies and educate staff on best practices
+Skills Needed:
+Deep understanding of cybersecurity principles
+Familiarity with security tools and technologies
+Knowledge of compliance standards (ISO 27001, GDPR, etc.)
+Incident response and forensic investigation skills
+
+---Operating System---
+Basically a program that helps us tell what to do to the computer. In sys admin there is mainly 2 types Client and Server.
